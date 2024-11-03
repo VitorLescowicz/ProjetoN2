@@ -1,0 +1,54 @@
+name: registro_compras_online
+description: Um aplicativo Flutter para registrar compras online com Firebase.
+
+# Versão do aplicativo
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core para inicialização do Firebase
+  firebase_core: ^2.15.0
+
+  # Cloud Firestore para operações de banco de dados
+  cloud_firestore: ^4.12.0
+
+  # Firebase Authentication para gerenciamento de usuários
+  firebase_auth: ^4.4.0
+
+  # Provider para gerenciamento de estado
+  provider: ^6.0.5
+
+  # Gráficos para estatísticas
+  fl_chart: ^0.69.0
+
+  # CSV para exportação de dados
+  csv: ^5.0.0
+
+  # Intl para formatação de datas
+  intl: ^0.17.0
+
+  # Path Provider para acesso ao sistema de arquivos
+  path_provider: ^2.0.11
+
+  # Ícones Cupertino
+  cupertino_icons: ^1.0.5
+  firebase_auth_web: ^5.8.13
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Ferramentas de análise estática de código
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  # Adicione seus assets aqui, se houver
+  # assets:
+  #   - assets/images/

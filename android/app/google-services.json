@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1075714700418",
+    "project_id": "registro-compras",
+    "storage_bucket": "registro-compras.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1075714700418:android:1305ffecce8ebbb79c309b",
+        "android_client_info": {
+          "package_name": "com.registro.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpPZxPVRr2K3awa8bQs4COo_RR915u4Jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
